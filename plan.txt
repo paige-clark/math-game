@@ -5,6 +5,9 @@ numbers between 1 and 20. The player whose turn it is
 is prompted the question and must answer correctly or
 lose a life.
 
+the question is:
+should there be a game class?
+
 Player class - 2 of these
   state: -lives
          -scores
