@@ -1,0 +1,41 @@
+Create a 2-Player math game where players take turns
+to answer simple math addition problems. A new math
+question is generated for each turn by picking two
+numbers between 1 and 20. The player whose turn it is
+is prompted the question and must answer correctly or
+lose a life.
+
+Player class - 2 of these
+  state: -lives
+         -scores
+         -player number
+  behaviour: -lose a life if they answer the
+              question wrong
+             -increment the score if they get an
+              answer right
+ information relevant to class:
+ - need to know if they won or lost the TURN
+
+end
+
+Turn class?
+  state: -active player
+         -how many turns have passed?
+  behaviour: -log a message prompting the active
+              player
+             -generate a new question obj?
+             -say bye when the game is done
+  information relevant to class:
+  - if the active player loses their round, modify
+    the user's score
+end
+
+Question class
+  state: -maybe an answered state?
+  behaviour: -create a random math question
+  information relevant to class:
+  
+end
+
+
+
