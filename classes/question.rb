@@ -12,16 +12,14 @@ class Question
 
   def question
     puts "#{player.name}: what is #{randomNum1} + #{randomNum2}?"
-    puts "the answer is #{math}"
-    print '>'
+    # puts "the answer is #{math}"
+    print '> '
     answer = gets.chomp
     puts "You said #{answer}"
-    # what if answer is not a number
+    # what if answer is not a number?
     if answer.to_i != math
-      puts "WRONG!!!!!!!"
       return false
     elsif answer.to_i == math
-      puts "YEAH BABYYY!!!!"
       return true
     end
   end
